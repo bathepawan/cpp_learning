@@ -1,0 +1,19 @@
+
+Inheritance 
+Type	    ->		Public		Protected	Private
+-----------------------------------------------------------------
+Original
+  Type
+  
+Public			Public		Protected	Private
+
+
+Protected		Protected	Protected	Private
+
+Private			Not inherited	Not inherited	Not inherited
+
+
+Protected and Private members can be accessed by member function only within class.
+Protected is use for letting them secure/private but allowing them to be inherited by derived class.
+
+
