@@ -6,9 +6,11 @@ using namespace std;
 class Base
 {
 protected:
-	void setup();
-	void execute();
-	void teardown();
+	void setup();  // in MyTest.cpp when run method is called, it refers to base class run method since derived do not have 
+	// run method, since base class method is called any function call in base class run method will look for base class function if virtual not specified else
+	// will use derived type if virtual is used i.e since derived object is used in invoking
+	virtual void execute();
+	virtual void teardown();
 public:
 	void run();
 };
