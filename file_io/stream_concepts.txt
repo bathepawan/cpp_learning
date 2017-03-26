@@ -1,0 +1,15 @@
+input stream inputs data to program 
+ouputs stream outputs data from program 
+
+
+
+Data -> I/P Stream -> Variable -- so input streams reads that from device and updates variable eg. cin >> a; reads from stdin and update a with value
+
+Variable -> O/P Stream -> Data -- So, output stream puts the variables from program as data on to device. eg. cout << "Data Var"; puts "Data var" onto stdout ~output stream 
+
+
+File Stream: 
+
+ofstream -> to create new file and write in it 
+ifstream -> open existing file for reading
+fstream -> open existing file for reading or writing 
