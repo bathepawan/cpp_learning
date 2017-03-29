@@ -13,3 +13,5 @@ File Stream:
 ofstream -> to create new file and write in it 
 ifstream -> open existing file for reading
 fstream -> open existing file for reading or writing 
+
+binary files are char oriented in CPP
